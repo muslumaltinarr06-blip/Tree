@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #080808;
+    color: #f3f4f6;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    overscroll-behavior-y: none;
+  }
+
+  input, textarea, select {
+    user-select: text;
+  }
+}
+
+/* Custom Gold & Luxury Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF1B0 0%, #D4AF37 50%, #AA771C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #E6CA65 0%, #D4AF37 50%, #996515 100%);
+}
+
+.gold-border {
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.25);
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 0 15px -3px rgba(212, 175, 55, 0.15);
+}
+
+.dark-card {
+  background: radial-gradient(circle at 50% 0%, rgba(35, 30, 20, 0.5) 0%, rgba(14, 14, 14, 0.95) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.glass-panel {
+  background: rgba(18, 18, 20, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Mobile Safe Areas for iOS */
+.safe-pb {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
+}
+
+.safe-pt {
+  padding-top: env(safe-area-inset-top, 0.75rem);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2618;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}

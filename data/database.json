@@ -1,0 +1,500 @@
+{
+  "users": [
+    {
+      "id": "user_admin_muslum",
+      "email": "muslumaltinarr06@gmail.com",
+      "name": "Müslüm Altınar (Yönetici)",
+      "passwordHash": "27a74d9eb62b004ab9f6fe0b890b40fa1fca40a7af33dd0a95ddc3854ab10caed3f71e5a994f9aab5d938b3c2375f5f31290a7a57129dce5ab2b727f4613b04d",
+      "salt": "4c31244af185dcf5ae04eacb121e6fb9",
+      "role": "admin",
+      "vipUntil": 2109887539472,
+      "vipPlan": "monthly",
+      "createdAt": 1791935539472
+    },
+    {
+      "id": "usr_b07721e6-0d10-4877-a8c9-e41a3840d6ba",
+      "email": "testuser@gmail.com",
+      "name": "Deneme Kullanıcı",
+      "passwordHash": "1bd3ed1968d42a33a3909ed03650b05b78d8de1bafd136141ea485fc40c73ea4c083eff3d2b2bbfa7b7c0f2dd343de5f245ebfe9e52bfe1d82797fef1733df46",
+      "salt": "dcaf4965e68b4f5943894eca6953afb6",
+      "role": "user",
+      "vipUntil": 1792023051676,
+      "vipPlan": null,
+      "createdAt": 1791936456561
+    }
+  ],
+  "bankSettings": {
+    "bankName": "Ziraat Bankası",
+    "iban": "TR33 0001 0000 0000 0000 0000 01",
+    "accountHolder": "Müslüm Altınar",
+    "note": "Havale / EFT / FAST gönderirken Açıklama kısmına sistem tarafından verilen Referans Kodunu eksiksiz yazınız. Ödemenizi yaptıktan sonra dekont bildirim formunu doldurunuz.",
+    "updatedAt": 1791935539472
+  },
+  "paymentRequests": [
+    {
+      "id": "pay_f4cd80e0-b47b-4e9d-b985-ea860d51b9b5",
+      "userId": "user_admin_muslum",
+      "userEmail": "muslumaltinarr06@gmail.com",
+      "userName": "Müslüm Altınar (Yönetici)",
+      "planId": "monthly",
+      "planName": "Aylık VIP",
+      "amount": 1750,
+      "senderName": "Müslüm Altınar (Yönetici)",
+      "referenceCode": "MSL-72472",
+      "status": "approved",
+      "createdAt": 1791936626792,
+      "processedAt": 1791936635922,
+      "processedBy": "Müslüm Altınar (Yönetici)"
+    }
+  ],
+  "races": [
+    {
+      "id": "race_ankara_today",
+      "date": "2026-10-13",
+      "displayDate": "13 Ekim 2026 Salı",
+      "hipodrom": "Ankara 75. Yıl Hipodromu",
+      "city": "Ankara",
+      "title": "Ankara 75. Yıl Altılı Ganyan VIP Özel Bülteni",
+      "isFeatured": true,
+      "status": "live",
+      "altiliGanyanSummary": {
+        "programNumber": 1,
+        "estimatedCost": "288,00 TL",
+        "couponFormula": "2-4-5 // 1 (GÜNÜN BANKOSU) // 3-6-7 // 2-8 // 4 (TEK) // 1-3-5-9",
+        "summaryNote": "Ankara çiminde 2. Ayakta 1 numaralı safkan günün en sağlam bankosu olarak belirlenmiştir."
+      },
+      "races": [
+        {
+          "id": "ankara_leg_1",
+          "legNumber": 1,
+          "raceNumber": 3,
+          "raceTime": "15:00",
+          "title": "Şartlı 4 / 3 Yaşlı İngilizler",
+          "distanceAndTrack": "1600m Çim",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 2,
+              "name": "BOZKIR KARTALI",
+              "jockey": "Ahmet Çelik",
+              "weight": "58 kg",
+              "form": "1-1-2-1",
+              "odds": "2.10",
+              "isBanko": false,
+              "isSurprise": false,
+              "notes": "Ankara pistini çok seviyor, ilk şanslı isim."
+            },
+            {
+              "number": 4,
+              "name": "ANKARA RÜZGARI",
+              "jockey": "Gökhan Kocakaya",
+              "weight": "56 kg",
+              "form": "2-3-1-2",
+              "odds": "3.40",
+              "isBanko": false,
+              "isSurprise": false,
+              "notes": "Son işinde çok rahat aksiyonlar sergiledi."
+            },
+            {
+              "number": 5,
+              "name": "KARA GÖLGE",
+              "jockey": "Vedat Abiş",
+              "weight": "54 kg",
+              "form": "4-1-6-3",
+              "odds": "6.20",
+              "isBanko": false,
+              "isSurprise": true,
+              "notes": "Boş kilosu ile viraj dönülürken sert atak yapabilir."
+            }
+          ],
+          "recommendedPicks": [
+            2,
+            4,
+            5
+          ],
+          "expertAnalysis": "Ankara 1600m çim koşusunda tempolu bir yarış bekliyoruz. 2 BOZKIR KARTALI viraj üzerinde hakimiyeti alıp bitirmeye çalışacak. Rakipleri 4 ve 5 numaradır."
+        },
+        {
+          "id": "ankara_leg_2",
+          "legNumber": 2,
+          "raceNumber": 4,
+          "raceTime": "15:30",
+          "title": "KV-8 / 4+ Yaşlı Araplar",
+          "distanceAndTrack": "1900m Çim",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 1,
+              "name": "BAŞKENT FIRTINASI",
+              "jockey": "Özcan Yıldırım",
+              "weight": "60 kg",
+              "form": "1-1-1-2",
+              "odds": "1.50",
+              "isBanko": true,
+              "notes": "Günün tartışmasız en güvenilir bankosu. İdman durumu kusursuz."
+            },
+            {
+              "number": 3,
+              "name": "CEVHER",
+              "jockey": "Halis Karataş",
+              "weight": "58 kg",
+              "form": "2-2-3-1",
+              "odds": "4.50",
+              "notes": "Sert rakip."
+            }
+          ],
+          "recommendedPicks": [
+            1
+          ],
+          "expertAnalysis": "1 BAŞKENT FIRTINASI bu mesafede geçilmezlik formunu koruyor. Düzlük sprinti rakip tanımaz. GÜNÜN SARSILMAZ BANKOSUDUR."
+        }
+      ],
+      "createdAt": 1791936978486,
+      "updatedAt": 1791936978486
+    },
+    {
+      "id": "race_istanbul_today",
+      "date": "2026-10-13",
+      "displayDate": "13 Ekim 2026 Salı",
+      "hipodrom": "İstanbul Veliefendi Hipodromu",
+      "city": "İstanbul",
+      "title": "İstanbul Veliefendi Altılı Ganyan VIP Analizi",
+      "isFeatured": true,
+      "status": "live",
+      "altiliGanyanSummary": {
+        "programNumber": 1,
+        "estimatedCost": "320,00 TL",
+        "couponFormula": "3-5-7 // 2 (BANKO) // 1-4-6-8 // 5 (TEK) // 2-3-9 // 1-4-7-11",
+        "summaryNote": "Günün en sağlam bankosu 4. Ayaktaki (5) GÜRKANBEY olarak belirlenmiştir. 3. Ayakta sürpriz ihtimali yüksektir."
+      },
+      "races": [
+        {
+          "id": "ist_leg_1",
+          "legNumber": 1,
+          "raceNumber": 3,
+          "raceTime": "15:00",
+          "title": "Handikap 15 / DHT / Dişi",
+          "distanceAndTrack": "1400m Sentetik",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 3,
+              "name": "GÖKÇEKIZ",
+              "jockey": "Ahmet Çelik",
+              "weight": "58 kg",
+              "form": "1-2-1-4",
+              "odds": "3.20",
+              "isBanko": false,
+              "isSurprise": false,
+              "notes": "Pist ve mesafeye son derece uyumlu, düzlük sprinti çok etkili."
+            },
+            {
+              "number": 5,
+              "name": "ALTIN DAMLA",
+              "jockey": "Gökhan Kocakaya",
+              "weight": "56 kg",
+              "form": "3-1-2-2",
+              "odds": "2.80",
+              "isBanko": false,
+              "isSurprise": false,
+              "notes": "Son galobunda çok diri göründü, ilk şanslı isim."
+            },
+            {
+              "number": 7,
+              "name": "KARA İNCİ",
+              "jockey": "Halis Karataş",
+              "weight": "54.5 kg",
+              "form": "4-3-6-1",
+              "odds": "6.50",
+              "isBanko": false,
+              "isSurprise": true,
+              "notes": "Hafif kilosu ve start avantajı ile günün ilk bombasını patlatabilir."
+            }
+          ],
+          "recommendedPicks": [
+            5,
+            3,
+            7
+          ],
+          "expertAnalysis": "Temponun yüksek başlayacağı bir koşu. Viraj dönülürken ön grupta yerini alacak 5 ALTIN DAMLA ve arkasında sabırlı bekleyecek 3 GÖKÇEKIZ ikilisi ön planda. Geniş kuponlara 7 KARA İNCİ eklenmeli."
+        },
+        {
+          "id": "ist_leg_2",
+          "legNumber": 2,
+          "raceNumber": 4,
+          "raceTime": "15:30",
+          "title": "Şartlı 4 / 3 Yaşlı İngilizler",
+          "distanceAndTrack": "1600m Çim",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 2,
+              "name": "LORD OF WAR",
+              "jockey": "Özcan Yıldırım",
+              "weight": "58 kg",
+              "form": "1-1-2-1",
+              "odds": "1.60",
+              "isBanko": true,
+              "isSurprise": false,
+              "notes": "Formunun zirvesinde. Jokeyi ile mükemmel uyumlu, günün sarsılmaz tek adayı."
+            },
+            {
+              "number": 1,
+              "name": "THUNDERBOLT",
+              "jockey": "Mert Ali Solmaz",
+              "weight": "60 kg",
+              "form": "2-3-1-4",
+              "odds": "4.80",
+              "isBanko": false,
+              "isSurprise": false,
+              "notes": "Kilo dezavantajı var ancak tabela şansı yüksek."
+            }
+          ],
+          "recommendedPicks": [
+            2
+          ],
+          "expertAnalysis": "2 LORD OF WAR bu gruptan bir gömlek üstün kaliteye sahip. Son işinde adeta kanatlandı. Rakiplerinin sert tempo kuramayacağı bu koşuda viraj üstü hakimiyeti alıp kazanmasını bekliyoruz. GÜNÜN BANKOSU."
+        },
+        {
+          "id": "ist_leg_3",
+          "legNumber": 3,
+          "raceNumber": 5,
+          "raceTime": "16:00",
+          "title": "KV-7 / 4+ Yaşlı Araplar",
+          "distanceAndTrack": "2100m Sentetik",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 1,
+              "name": "KAFKAS ŞAHI",
+              "jockey": "Halis Karataş",
+              "weight": "61 kg",
+              "form": "3-2-1-3",
+              "odds": "3.40",
+              "notes": "Uzun mesafede dayanıklılığı yüksek."
+            },
+            {
+              "number": 4,
+              "name": "YILDIRIMBEYİ",
+              "jockey": "Gökhan Kocakaya",
+              "weight": "57.5 kg",
+              "form": "1-4-2-1",
+              "odds": "2.90",
+              "notes": "İdman pistinde sergilediği dereceler çok tatminkar."
+            },
+            {
+              "number": 6,
+              "name": "DOĞAN FIRTINASI",
+              "jockey": "Ayhan Kurşun",
+              "weight": "55 kg",
+              "form": "5-6-3-2",
+              "odds": "7.20",
+              "isSurprise": true,
+              "notes": "Boş kilo avantajı ile sonlarda çok sert gelecektir."
+            },
+            {
+              "number": 8,
+              "name": "BATUHANBEY",
+              "jockey": "Akın Sözen",
+              "weight": "54 kg",
+              "form": "6-2-4-1",
+              "odds": "8.50",
+              "notes": "Sürpriz kuponların olmazsa olmazı."
+            }
+          ],
+          "recommendedPicks": [
+            4,
+            1,
+            6,
+            8
+          ],
+          "expertAnalysis": "Mesafe 2100m ve yarış temposu değişken. 4 YILDIRIMBEYİ ve 1 KAFKAS ŞAHI ana çatıyı oluştursa da 6 ve 8 numaralı safkanlar sürpriz hanesinde mutlaka değerlendirilmelidir."
+        },
+        {
+          "id": "ist_leg_4",
+          "legNumber": 4,
+          "raceNumber": 6,
+          "raceTime": "16:30",
+          "title": "A-3 / 3 Yaşlı Araplar (Günün Koşusu)",
+          "distanceAndTrack": "1400m Çim",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 5,
+              "name": "GÜRKANBEY",
+              "jockey": "Ahmet Çelik",
+              "weight": "57 kg",
+              "form": "1-1-1-1",
+              "odds": "1.45",
+              "isBanko": true,
+              "notes": "Geçilmezlik unvanını koruyor. Şampiyon adayı safkan."
+            },
+            {
+              "number": 2,
+              "name": "DİVRİĞİ ASLANI",
+              "jockey": "Özcan Yıldırım",
+              "weight": "57 kg",
+              "form": "2-1-2-3",
+              "odds": "5.10",
+              "notes": "Rakip gördüğümüz tek isim."
+            }
+          ],
+          "recommendedPicks": [
+            5
+          ],
+          "expertAnalysis": "5 GÜRKANBEY kariyerine 4 te 4 ile başladı. Tarzı, aksiyonları ve nefesi kusursuz. Ahmet Çelik ile starttan çıktığı gibi aynayı önde geçecektir. MÜSLÜM VIP TEK ÖNERİSİDİR."
+        },
+        {
+          "id": "ist_leg_5",
+          "legNumber": 5,
+          "raceNumber": 7,
+          "raceTime": "17:00",
+          "title": "Şartlı 5 / 4 Yaşlı İngilizler",
+          "distanceAndTrack": "1900m Çim",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 2,
+              "name": "GOLDEN RULER",
+              "jockey": "Halis Karataş",
+              "weight": "58 kg",
+              "form": "2-3-1-1",
+              "odds": "2.50",
+              "notes": "Çim pist performansı üst düzey."
+            },
+            {
+              "number": 3,
+              "name": "VALIANT HEART",
+              "jockey": "Gökhan Kocakaya",
+              "weight": "56 kg",
+              "form": "1-4-2-3",
+              "odds": "3.10",
+              "notes": "Son koşusunu ölçü almayınız."
+            },
+            {
+              "number": 9,
+              "name": "BLACK VIPER",
+              "jockey": "Vedat Abiş",
+              "weight": "53 kg",
+              "form": "7-1-4-2",
+              "odds": "9.00",
+              "isSurprise": true,
+              "notes": "Günün gizli bombası."
+            }
+          ],
+          "recommendedPicks": [
+            2,
+            3,
+            9
+          ],
+          "expertAnalysis": "2 GOLDEN RULER ve 3 VALIANT HEART arasındaki mücadeleye, çok cazip ganyanla koşacak olan 9 BLACK VIPER ortak olabilir. Üç ismi ayırt etmiyoruz."
+        },
+        {
+          "id": "ist_leg_6",
+          "legNumber": 6,
+          "raceNumber": 8,
+          "raceTime": "17:30",
+          "title": "Maiden / 3 Yaşlı İngilizler (Kapanış)",
+          "distanceAndTrack": "1300m Sentetik",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 1,
+              "name": "ASLAN YÜREK",
+              "jockey": "Akın Sözen",
+              "weight": "58 kg",
+              "form": "2-2-3",
+              "odds": "2.70"
+            },
+            {
+              "number": 4,
+              "name": "CAPTAIN SPEED",
+              "jockey": "Gökhan Kocakaya",
+              "weight": "58 kg",
+              "form": "3-4-2",
+              "odds": "3.30"
+            },
+            {
+              "number": 7,
+              "name": "LUCKY CHARM",
+              "jockey": "Özcan Yıldırım",
+              "weight": "56 kg",
+              "form": "4-3-5",
+              "odds": "5.50"
+            },
+            {
+              "number": 11,
+              "name": "SILVER SHADOW",
+              "jockey": "Ayhan Kurşun",
+              "weight": "56 kg",
+              "form": "6-2",
+              "odds": "8.20",
+              "isSurprise": true
+            }
+          ],
+          "recommendedPicks": [
+            1,
+            4,
+            7,
+            11
+          ],
+          "expertAnalysis": "Kapanış ayağında Maiden koşularda hata payını azaltmak için bütçe elverdiğince fazla at yazılması tavsiye edilir. Sıralamamız: 1 - 4 - 7 - 11."
+        }
+      ],
+      "createdAt": 1791931939519,
+      "updatedAt": 1791931939519
+    },
+    {
+      "id": "race_adana_today",
+      "date": "2026-10-13",
+      "displayDate": "13 Ekim 2026 Salı",
+      "hipodrom": "Adana Yeşiloba Hipodromu",
+      "city": "Adana",
+      "title": "Adana Yeşiloba Gece Yarışları VIP Şablonu",
+      "isFeatured": false,
+      "status": "upcoming",
+      "altiliGanyanSummary": {
+        "programNumber": 2,
+        "estimatedCost": "180,00 TL",
+        "couponFormula": "1-3-4 // 6 (BANKO) // 2-5 // 1-2-7-9 // 3 // 4-8",
+        "summaryNote": "Adana kumunda 2. Ayakta 6 ADANA FIRTINASI tek olarak güven vermektedir."
+      },
+      "races": [
+        {
+          "id": "adana_leg_1",
+          "legNumber": 1,
+          "raceNumber": 4,
+          "raceTime": "18:30",
+          "title": "Handikap 14 / DHT",
+          "distanceAndTrack": "1400m Kum",
+          "altiliLeg": true,
+          "horses": [
+            {
+              "number": 1,
+              "name": "ÇUKUROVA ATEŞİ",
+              "jockey": "Ercan Çankaya",
+              "weight": "60 kg",
+              "form": "2-1-3-4",
+              "odds": "3.00"
+            },
+            {
+              "number": 3,
+              "name": "TOROS RÜZGARI",
+              "jockey": "Mehmet Salih Çelik",
+              "weight": "57 kg",
+              "form": "1-2-5-1",
+              "odds": "2.50"
+            }
+          ],
+          "recommendedPicks": [
+            3,
+            1
+          ],
+          "expertAnalysis": "Kum pistte form durumu çok iyi olan 3 TOROS RÜZGARI ve 1 ÇUKUROVA ATEŞİ koşunun iki favorisidir."
+        }
+      ],
+      "createdAt": 1791933739519,
+      "updatedAt": 1791933739519
+    }
+  ]
+}

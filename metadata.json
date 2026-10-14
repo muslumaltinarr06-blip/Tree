@@ -1,0 +1,6 @@
+{
+  "name": "Müslüm - VIP At Yarışı Tahminleri",
+  "description": "Lüks ve profesyonel Türkçe at yarışı VIP tahmin, altılı ganyan ve koşu analizleri platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
